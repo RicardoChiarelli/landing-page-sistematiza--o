@@ -1,0 +1,111 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+    body { 
+     font-size: 100%;
+     background-color: #D3D3D3;
+    }
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-imagem {
+    height: 72px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;    
+}
+.cabecalho-menu-item {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: #fff2ef;
+     font-weight: 400;
+     font-size: 18px;
+}
+.conteudo {
+    margin-bottom: 48px ;
+    border-top: 0,4px solid #fff2ef;
+}
+
+    .contudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    }
+    .conteudo-pricipal-escrito {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+.conteudo-pricipal-escrito-titulo {
+    font-family: 'righteous', cursive;
+    font-size: 64px;
+    color:#fff2ef;
+}
+.conteudo-pricipal-escrito-subtitulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+.conteudo-pricipal-escrito-botao {
+
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(red, green, blue, alpha);
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2f2325;
+}
+
+.conteudo-principal-imagem {
+    height: 430px;   
+
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+
+.conteudo-secudario-titulo {
+ border-top: 0,4px solid #FFF2e7;
+ padding-top: 48px; 
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+ font-weight: 400;
+ font-size:24px;
+ color:  #fff2e7;
+ margin-bottom: 16px;
+}
+
+.conteudo-secudario-paragrafo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #2f2325;
+}
+.rodape {
+    padding: 35px;
+    border-top: 0,6px solid #fff2ef;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    
+}
